@@ -1,0 +1,28 @@
+
+:host ::ng-deep ng2-st-tbody-edit-delete {
+  display: flex !important;
+  height: 0 !important;
+}
+
+
+
+:host ::ng-deep ng2-st-tbody-custom a.ng2-smart-action.ng2-smart-action-custom-custom {
+  display: inline-block;
+  width:50px;
+  padding-top:5px;
+  text-align: center;
+  font-size: 1.1em;
+
+}
+
+:host ::ng-deep tr.ng2-smart-row a:hover { color: #007bff; }
+
+:host ::ng-deep table tr:nth-child(2) th {
+  position: sticky;
+  top: -1%;
+  z-index: 100;
+
+}
+
+
+
